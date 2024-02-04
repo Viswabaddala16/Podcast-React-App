@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    text-align: center;
+}
+.links{
+    align-items: center;
+    display: flex;
+    gap: 1.2rem;
+
+}
+.links a {
+  color: var(--grey);
+  text-decoration: none !important;
+}
+.gradient {
+    position: absolute;
+    width: 800px;
+    height: 150px;
+    margin: auto;
+    background-color: #18b2de;
+    filter: blur(90px);
+    z-index: -1;
+    top: -120px;
+}
+.active{
+    color: #fff !important;
+}

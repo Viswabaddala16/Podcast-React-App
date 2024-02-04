@@ -1,0 +1,38 @@
+.reset-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+.reset-flex button{
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 0.5rem;
+    border: 2px solid var(--white);
+    cursor: pointer;
+    width: 73vw;
+    border-radius: 0.35rem;
+    padding: 0.5rem 1rem;
+}
+.custom-input{
+    background-color: var(--theme);
+    color: var(--white);
+    border: 2px solid var(--purple-grey);
+    border-radius: 0.35rem;
+    padding:0.5rem 1rem;
+    font-size: 1.2rem;
+    width: 70vw;
+    margin: 0.5rem;
+    font-weight: 500;
+}
+.custom-input::placeholder{
+    color: var(--purple-grey);
+}
+.custom-input:focus{
+    outline: none;
+    background-color: var(--white);
+    color: var(--theme);
+    transition: all 0.5s;
+
+}
