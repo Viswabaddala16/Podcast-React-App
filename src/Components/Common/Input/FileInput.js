@@ -11,7 +11,7 @@ function FileInput({accept,id,fileHandleFunc,text}) {
   }
 
   return (
-    <div style={{width : "70%"}}>
+    <>
       <label htmlFor={id} 
       className= {`custom-input ${!fileSelected ? "label-input" : "active"}`} >
         {fileSelected ? `File was Selected ${fileSelected}` : text}
@@ -21,7 +21,7 @@ function FileInput({accept,id,fileHandleFunc,text}) {
           type="file" 
           style={{display : "none"}} 
           accept={accept} onChange={onChange} />
-    </div>
+    </>
   )
 }
 
